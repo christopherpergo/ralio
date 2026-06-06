@@ -84,20 +84,38 @@ html {
 }
 
 #center {
-display: flex;
-flex-direction: column;
-gap: 50px;
-margin: 100px;
-align-items: center;
-justify-content: flex-start;
-flex-grow: 1;
-font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  font-size: 2.5rem;
 }
+
 .second-line {
   display: inline-block;
   margin-top: 25px;
 }
 
+@media (max-width: 1024px) {
+  #center {
+    margin-top: 30px;   /* antes 100px */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero-text {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+
+  .second-line {
+    margin-top: 8px;    /* antes 25px */
+  }
+}
 
 
 #introduccion {
@@ -117,12 +135,7 @@ font-size: 2.5rem;
     line-height: 1.8;
   }
 }
-.hero-text{
-  @media (max-width: 1024px) {
-    line-height: 0.9;
-    padding:  1px;
-   }
-}
+
 .linkservice {
   line-height: 1.9;}
 
@@ -151,7 +164,7 @@ font-size: 2.5rem;
       180deg,
       #151515 0%,
       #090909 40%,
-      #000000 100%
+      #080808 100%
     );
 
   color: white;
