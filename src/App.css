@@ -26,12 +26,12 @@ html {
 
   background: linear-gradient(
     135deg,
-    #ffffff 0%,
-    #d9d9d9 20%,
-    #f8c8dc 45%,
-    #ffffff 60%,
-    #bdbdbd 80%,
-    #ffffff 100%
+    #d7d6d6 0%,
+    #c8c6c6 20%,
+    #bab9b9 45%,
+    #c6c6c6 60%,
+    #bfbdbd 80%,
+    #ccc8c8 100%
   );
 
   -webkit-background-clip: text;
@@ -65,13 +65,14 @@ html {
   font-weight: 600;
 
   border-radius: 99px;
-  border: none;
+  border: white 1px solid;
 
   background: linear-gradient(
     135deg,
-    #f9ca9d 0%,
-    #f6cabc 45%,
-    #f095bb 100%
+    #46382b 0%,
+    #2e140d 45%,
+    #250f25 100%,
+   
   ) !important;
 
   box-shadow:
