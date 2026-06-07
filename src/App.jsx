@@ -22,15 +22,15 @@ function App() {
 
           <div className="nav-links">
             <Link to="/services">
-            Payment Strategy
+            Payment
             </Link>
 
             <Link to="/experience">
-              Experience Across Markets
+              Experience
             </Link>
 
 <Link to="/strategic">
-              Strategic Network
+              Network
             </Link>
             
             <Link to="/network">

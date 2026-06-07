@@ -23,24 +23,9 @@ html {
   font-size: 1.9rem;
   font-weight: 800;
   letter-spacing: 1px;
+color: white;
 
-  background: linear-gradient(
-    135deg,
-    #d7d6d6 0%,
-    #c8c6c6 20%,
-    #bab9b9 45%,
-    #c6c6c6 60%,
-    #bfbdbd 80%,
-    #ccc8c8 100%
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  text-shadow:
-    0 0 10px rgba(255, 200, 220, 0.25),
-    0 0 20px rgba(255, 255, 255, 0.15);
+  
 }
 
 .nav-links {
